@@ -1,5 +1,102 @@
-.fixex{
-    position: fixed;
-    width: 100%;
+p {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.foto-perfil {
+    height: 100%;
+    max-width: auto;
+    border-radius: 50%;
+}
+
+.icones {
+    padding-left: 5px;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulosVerdes {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18bc9c
+}
+
+.paragrafoBrancos {
+    color: white !important;
+}
+
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: black !important;
+}
+
+.corPrimaria {
+    background-color: #18bc9c;
+}
+
+.itemMenu {
+    color: white;
+}
+
+
+
+  .linha{
+    
+    top: 50%;
+    margin: 0 10em;
+    border-right: 2px solid rgba(255,255,255,0.75);
+    font-size: 3em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateX(-50%);
+  }
+
+  @media(min-width:322px){
+      .linha{
+          margin-left: 50%;
+          font-size: 2em;
+      }
+  }
+  
+  /* Animação */
+  
+  .anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1  normal both,
+    blinkTextCursor 100ms steps(40) infinite normal;
+  }
+  
+  @keyframes typewriter{
+    from{
+      width: 0;
+    }
+    to{
+      width: 10em;
+    }
+  }
+  
+  @keyframes blinkTextCursor{
+    from{
+      border-right-color: rgba(24, 22, 22, 0.75);
+    }
+    to{
+      border-right-color: transparent;
+    }
+  }
