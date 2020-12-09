@@ -100,3 +100,76 @@ p {
       border-right-color: transparent;
     }
   }
+
+   .imageIcone {
+    width: 50px;
+}
+ #meusConhecimentos {
+    width: 100%;
+    padding: 70px;
+    overflow: hidden;
+}
+#meusConhecimentos h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #0e2431;
+    font-size: 30px;
+}
+ #meusConhecimentos div {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+ #meusConhecimentos article {
+    text-align: center;
+    height: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    box-shadow: 0px 0px 20px #e7e7e7;
+    transition: all 0.5s;
+}
+ #meusConhecimentos article:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+ #meusConhecimentos article h2 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+ #meusConhecimentos article p {
+    line-height: 30px;
+}
+@media screen and (max-width: 800px) {
+     #meusConhecimentos {
+        padding: 70px 10px;
+    }
+}
+
+footer {
+  padding: 50px 10px;
+  background-color: #232323;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  padding: 25px;
+  font-size: 14px;
+  font-weight: 200;
+}
+footer #midiasSociaisFooter {
+  margin: 0 auto;
+}
+footer #midiasSociaisFooter i {
+  padding: 0px 20px;
+  color: #fff;
+  font-size: 24px;
+}
+footer #midiasSociaisFooter i:hover {
+  cursor: pointer;
+  color: #3460da;
+}
