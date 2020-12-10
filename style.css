@@ -13,12 +13,12 @@ p {
 }
 
 .titulosBrancos {
-    text-decoration: underline;
+    
     text-underline-position: under;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: rgb(10, 9, 9);
 }
 
 .titulosVerdes {
@@ -31,7 +31,7 @@ p {
 }
 
 .paragrafoBrancos {
-    color: white !important;
+    color: rgb(10, 9, 9) !important;
 }
 
 
@@ -48,7 +48,7 @@ p {
 }
 
 .corPrimaria {
-    background-color: #18bc9c;
+    background-color: white;
 }
 
 .itemMenu {
@@ -152,7 +152,7 @@ p {
 
 footer {
   padding: 50px 10px;
-  background-color: #232323;
+  background-color: #d3c7c7;
   text-align: center;
 }
 footer p {
